@@ -1,0 +1,1225 @@
+body{
+    background-color: rgb(16, 16, 16);
+    height: 5500px;
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 33, 33);
+    height: 50px;
+}
+.nav1 .navleft1{
+    display: flex;
+}
+.nav1 .navleft1 img{
+    margin-top: 15px;
+    margin-left: 20px
+}
+.nav1 .navleft1 h3{
+    margin-top: 10px;
+}
+.nav1 .navright1{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(27, 25, 25);
+    height: 80px;
+
+}
+.nav2 .divp{
+    display: flex;
+    margin-top: -39px;
+    margin-left: 5px;
+}
+.nav2 .divp .pp1{
+    margin-right: -262px;
+}
+.nav2 .divp .pp2{
+    margin-right: 180px;
+}
+.nav2 .navright2{
+    margin-right: 200px;
+    margin-top: 25px;
+}
+.nav2 .navright2 a{
+    margin: 20px;
+    text-decoration: none;
+}
+
+.sec1{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.986),rgb(11, 11, 11),rgb(24, 52, 43));
+    height: 630px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+.sec1 .divleft{
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+
+}
+.sec1 .divright .divp2{
+    display: flex;
+    margin-top: 100px;
+    margin-left: -28px;
+}
+.divright .divp2 .pp1{
+    margin-right: -258px;
+}
+.divright .divp2 .pp2{
+    margin-right: 200px;
+}
+.sec1 .divright .divtiit h1{
+    position:absolute ;
+    z-index: 1;
+    left: 239px;
+    top: 90px;
+}
+.sec1 .divright .divdecor{
+    background-color: aquamarine;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+.sec1 .divright .divparg{
+    position: absolute;
+    top: 270px;
+    left: 239px;
+}
+.sec1 .divright .logyoutub{
+    display: flex;
+    position: absolute;
+    top: 370px;
+    left: 239px;
+
+}
+.sec1 .divright .logyoutub .fa-circle-play{
+     position: absolute;
+     top: -4px;
+     border: 2px solid rgb(73, 111, 103);
+     box-shadow:4px 4px 13px rgb(113, 172, 161),-4px -4px 13px rgb(113, 172, 161);
+
+}
+.sec1 .divright .h4logo{
+       display: flex;
+        position: absolute;
+        top: -12px;
+        left: 75px;
+}
+.sec1 .divright .logyoutub .h4logo .h41{
+    margin: 5px;
+    position: absolute;
+    top: 20px;
+}
+.sec1 .divright .logyoutub .h4logo .h42{
+    margin: 5px;
+    position: absolute;
+    top: 20px;
+    left: 54px;
+}
+ .sec1 .divunderlin{
+    position: absolute;
+    background-color: rgb(64, 63, 63);
+    height: 1px;
+    width: 95px;
+    top: 410px;
+    left: 307px;
+
+}
+.sec1 .pargraf{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: -5px;
+}
+.sec1 .pargraf p{
+    margin: 2px;
+}
+.sec2{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.sec2 .divright .div1{
+    display: flex;
+    position: absolute;
+    left: 245px;
+    top:55px;
+}
+.sec2 .divright .div1 p{
+    margin: 5px;
+}
+.sec2 .divright .div2{
+    position: absolute;
+    left: 245px;
+    top:63px;
+}
+.sec2 .divright .div3{
+   background-color:  #53c1ae;
+   height: 2px;
+   width: 65px; 
+   position: absolute;
+    left: 245px;
+    top:135px;
+
+}
+.sec2 .divright .div4{
+    position: absolute;
+    left: 245px;
+    top:140px;
+}
+.sec2 .divright .div5{
+    position: absolute;
+    left: 245px;
+    top:255px;
+}
+
+
+.sec2 .divleft .Up{
+    display: flex;
+    position: relative;
+    right: 650px;
+    top: 40px;
+
+}
+.sec2 .divleft .Up .d1{
+   position: absolute;
+   background-color: rgb(20, 20, 20);
+   width: 190px;
+   height: 140px;
+   top: -10px;
+
+}
+.sec2 .divleft .Up .d1 img{
+    position: absolute;
+    left: 65px;
+    top: 5px;
+}
+.sec2 .divleft .Up .d1 h4{
+    position: absolute;
+    top: 35px;
+    right:26px;
+}
+.sec2 .divleft .Up .d1 p{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    
+}
+.sec2 .divleft .Up .d2{
+    position: absolute;
+    background-image: linear-gradient(black,black,rgb(1, 31, 22),rgb(35, 43, 43),rgb(3, 61, 56));
+    width: 190px;
+    height: 140px;
+    left: 200px;
+ 
+ }
+
+ .sec2 .divleft .Up .d2 img{
+    position: absolute;
+    left: 65px;
+    top: -5px;
+}
+.sec2 .divleft .Up .d2 h4{
+    position: absolute;
+    top: 38px;
+    right:26px;
+}
+.sec2 .divleft .Up .d2 p{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    
+}
+.sec2 .divleft .Down{
+    display: flex;
+    position: relative;
+    right: 850px;
+    top: 190px;
+
+}
+
+.sec2 .divleft .Down .dd1{
+    position: absolute;
+    background-image: linear-gradient(black,black,rgb(1, 31, 22),rgb(35, 43, 43),rgb(3, 61, 56));
+    width: 190px;
+    height: 140px;
+    left: 200px;
+    top: 1px;
+ 
+ }
+ .sec2 .divleft .Down .dd1 img{
+    position: absolute;
+    left: 65px;
+    top: 12px;
+ }
+ .sec2 .divleft .Down .dd1 h4{
+    position: absolute;
+    top: 45px;
+    left: 25px;
+ }
+ .sec2 .divleft .Down .dd1 p{
+    position: absolute;
+    top: 83px;
+    left: 20px;
+ }
+
+ .sec2 .divleft .Down .dd2{
+    position: absolute;
+    background-color: rgb(20, 20, 20);
+    width: 190px;
+    height: 140px;
+    left: 400px;
+    top: 9px;
+ 
+ }
+ .sec2 .divleft .Down .dd2 img{
+    position: absolute;
+    left: 65px;
+    top: 12px;
+ }
+ .sec2 .divleft .Down .dd2 h4{
+    position: absolute;
+    top: 45px;
+    left: 25px;
+ }
+ .sec2 .divleft .Down .dd2 p{
+    position: absolute;
+    top: 83px;
+    left: 20px;
+ }
+
+.sec3{
+    background-color:rgb(16, 16, 16);
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.sec3 .divleft img{
+    position: absolute;
+    left:245px;
+    top: 50px;
+    opacity: 0.8;
+}
+.sec3 .divright .div1{
+    display: flex;
+    position: absolute;
+    left: 510px;
+    top: 40px;
+}
+.sec3 .divright .div1 h4{
+    margin: 3px;
+}
+.sec3 .divright .div2 p{
+    position: absolute;
+    left: 510px;
+    top: 30px;
+}
+.sec3 .divright .div3{
+    background-color: #53c1ae;
+    width: 60px;
+    height: 1px;
+    position: absolute;
+    left: 510px;
+    top: 145px;
+}
+
+.sec3 .divright .div4 p{
+    position: absolute;
+    left: 510px;
+    top: 150px;
+}
+
+.sec3 .divright .div5{
+    display: flex;
+    position: absolute;
+    left: 510px;
+    top: 230px;
+}
+.sec3 .divright .div5 .maimdiv1{
+    display: flex;
+    
+
+}
+.sec3 .divright .div5 .maimdiv1 img{
+    position: absolute;
+    left: 10px;
+
+}
+.sec3 .divright .div5 .maimdiv1 .divp{
+    margin-top: -19px;
+    margin-left: 70px;
+}
+.sec3 .divright .div5 .maimdiv1 .divp p{
+    margin-top: -18px;
+}
+
+.sec3 .divright .div5 .maimdiv2{
+    display: flex;
+    
+}
+.sec3 .divright .div5 .maimdiv2 img{
+    position: absolute;
+    left: 300px;
+
+}
+.sec3 .divright .div5 .maimdiv2 .divp{
+   
+    margin-top: -22px;
+    margin-left: 130px;
+}
+
+
+.sec3 .divright .div5 .maimdiv2 .divp p{
+    margin-top: -18px;
+}
+
+
+.sec4{
+    background-image: linear-gradient(to right,rgb(23, 44, 43),rgb(30, 40, 38),rgb(4, 4, 4));
+    height: 150px;
+    position: relative;
+    opacity: 0.9;
+}
+.sec4 .divimg{
+    position: absolute;
+    left: 1250px;
+}
+.sec4 .divmain1{
+    display: flex;
+    margin-left: 178px;
+    
+}
+.sec4 .divmain1 div{
+    margin: 130px;
+    margin-top: 27px;
+}
+.sec4 .divmain2{
+    display: flex;
+    margin-left: 178px;
+    
+}
+.sec4 .divmain2 div{
+    margin: 130px;
+    margin-top: -155px;
+}
+.sec4 .divmain3{
+    display: flex;
+    margin-left: 170px;
+    
+}
+.sec4 .divmain3 div{
+    margin: 130px;
+    margin-top: -165px;
+}
+.sec4 .divmain3 .div1{
+    display: flex;
+}
+.sec4 .divmain3 .div1 p{
+    margin: 2px;
+   
+}
+.sec4 .divmain3 .div2{
+    display: flex;
+}
+.sec4 .divmain3 .div2 p{
+    margin: 35px;
+    margin-top: 8px;
+    margin-left: -30px;
+   
+}
+.sec4 .divmain3 .div3{
+    display: flex;
+}
+.sec4 .divmain3 .div3 p{
+    margin: 70px;
+    margin-top: 8px;
+    margin-left: -65px;
+   
+}
+.sec4 .divmain3 .div4{
+    display: flex;
+}
+.sec4 .divmain3 .div4 p{
+    margin: 97px;
+    margin-top: 8px;
+    margin-left: -94px;
+   
+}
+.sec5{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+.sec5 .divUp {
+    display: flex;
+    margin-left: 300PX;
+
+}
+.sec5 .divUp .divright .div1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.sec5 .divUp .divright .div1 h4{
+    margin: 4px;
+}
+.sec5 .divUp .divright .div2{
+    margin-top: -25px;
+}
+.sec5 .divUp .divright .div3{
+    background-color: #53c1ae;
+    width: 60px;
+    height: 1.5px;
+    margin-top: -15px;
+}
+.sec5 .divUp .divright .div5 .divtop{
+    display: flex;
+}
+.sec5 .divUp .divright .div5 .divtop p{
+    margin-top: 1px;
+    margin-left: 9px;
+
+}
+.sec5 .divUp .divright .div5 .divbottn{
+    display: flex;
+}
+.sec5 .divUp .divright .div5 .divbottn p{
+    margin-top: 1px;
+    margin-left: 9px;
+
+}
+.sec5 .divUp .divleft img{
+    position: absolute;
+    left: 970px;
+    top: 35px;
+}
+.sec5 .divbotton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 288px;
+}
+.sec5 .divbotton div{
+    margin: 10px;
+}
+
+.sec6{
+    background-image: linear-gradient(to left,rgb(23, 44, 43),rgb(30, 40, 38),rgb(4, 4, 4));
+    height: 150px;
+    position: relative;
+    opacity: 0.8;
+}
+.sec6 .divimgs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+    margin-left: 30px;
+    margin-top: -110px;
+}
+.sec6 .divimgs .div1{
+    filter: grayscale(100%);
+}
+
+.sec7{
+    background-color: black;
+    height: 500px;
+    position: relative;
+}
+.sec7 .divup{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.sec7 .divup .divleft{
+    margin-top: 50px;
+}
+.sec7 .divup .divright{
+    margin-top: 110px;
+}
+.sec7 .divup .divright .divchek1{
+    display: flex;
+    margin-top: 20px;
+}
+.sec7 .divup .divright .divchek1 p{
+  margin-top: 2px;
+  margin-left: 7px;
+}
+.sec7 .divup .divright .divchek2{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sec7 .divup .divright .divchek2 p{
+    margin-top: 2px;
+    margin-left: 7px;
+}
+.sec7 .divbotton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.sec7 .divbotton .div1{
+    margin-top: -50px;
+}
+.sec7 .divbotton .div1 .fa-circle-play{
+    position: absolute;
+    z-index: 1;
+    left: 495px;
+    top: 250px;
+    opacity: 0.8;
+}
+
+.sec7 .divbotton .div2{
+    position: absolute;
+    left: 670px;
+    
+}
+.sec7 .divbotton .div2 .fa-circle-play{
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: 50px;
+    opacity: 0.7;
+}
+
+.sec8{
+    background-image: linear-gradient(to left,black,rgb(27, 26, 26));
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.sec8 .divimg1{
+    position: absolute;
+    left: 1295px;
+    opacity: 0.6;
+   
+}
+.sec8 .divimg2{
+    position: absolute;
+    left: 1295px;
+    top: 201px;
+    opacity: 0.6;
+  
+}
+
+.sec8 .div1{
+    display: flex;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+}
+.sec8 .div1 h4{
+    margin: 5px;
+}
+.sec8 .div2{
+    position: absolute;
+    top: 60px;
+    left: 550px;
+}
+
+.sec8 .div3{
+    background-color: #53c1ae;
+    height: 1.7px;
+    width: 50px;
+    position: absolute;
+    top: 109px;
+    left: 620px;
+}
+
+.sec8 .div4{
+    position: absolute;
+    top: 110px;
+    left: 380px;
+    text-align: center;
+}
+
+.sec8 .divtop{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 160px;
+
+}
+.sec8 .divtop div{
+    margin: 20px;
+}
+
+.sec8 .divtop .divleft{
+    display: flex;
+    background-color: rgb(28, 27, 27);
+    width: 300px;
+    height: 140px;
+    box-shadow: 2px 2px 10px  rgb(39, 37, 37) ,-2px -2px 10px  rgb(39, 37, 37);
+    position: relative;
+    
+}
+.sec8 .divtop .divright{
+    display: flex;
+    background-color: rgb(28, 27, 27);
+    width: 300px;
+    height: 140px;
+    box-shadow: 2px 2px 10px  rgb(39, 37, 37) ,-2px -2px 10px  rgb(39, 37, 37);
+    position: relative;
+
+}
+.sec8 .divtop .divleft .div1 img{
+     position: absolute;
+     left: -620px;
+     top: -80px;
+     z-index: 1;
+}
+.sec8 .divtop .divleft .div2 h4{
+    position: absolute;
+    left: -470px;
+    top: -89px;
+    z-index: 1;
+}
+.sec8 .divtop .divleft .div2 .p1{
+    position: absolute;
+    left: -470px;
+    top: -50px;
+
+}
+.sec8 .divtop .divleft .div2 .p2{
+    position: absolute;
+    left: -452px;
+    top: -22px;
+    z-index: 1;
+}
+.sec8 .divtop .divleft .div2 .divmeda{
+    display: flex;
+    z-index: 1;
+    margin-left: -450px;
+    margin-top: 28px;
+}
+.sec8 .divtop .divleft .div2 .divmeda div{
+    margin: 4px;
+   
+    z-index: 1;
+   
+}
+
+
+
+
+.sec8 .divtop .divright .div1 img{
+    position: absolute;
+    left: -620px;
+    top: -80px;
+    z-index: 1;
+}
+.sec8 .divtop .divright .div2 h4{
+   position: absolute;
+   left: -470px;
+   top: -89px;
+   z-index: 1;
+}
+.sec8 .divtop .divright .div2 .p1{
+   position: absolute;
+   left: -470px;
+   top: -50px;
+
+}
+.sec8 .divtop .divright .div2 .p2{
+   position: absolute;
+   left: -452px;
+   top: -22px;
+   z-index: 1;
+}
+.sec8 .divtop .divright .div2 .divmeda{
+   display: flex;
+   z-index: 1;
+   margin-left: -450px;
+   margin-top: 28px;
+}
+.sec8 .divtop .divright .div2 .divmeda div{
+   margin: 4px;
+  
+   z-index: 1;
+  
+}
+.sec8 .divbottn{
+    display: flex;
+    position: relative;
+    left: -700px;
+    top: 150px;
+}
+ 
+
+
+
+
+.sec9{
+    background-color: black;
+    height: 750px;
+    position: relative;
+}
+.sec9 .div1{
+    position: absolute;
+    left: 610px;
+    top: 40px;
+}
+
+.sec9 .div2{
+    position: absolute;
+    top: 60px;
+    left: 580px;
+}
+
+.sec9 .div3{
+    background-color: #53c1ae;
+    height: 1.7px;
+    width: 50px;
+    position: absolute;
+    top: 109px;
+    left: 620px;
+}
+
+.sec9 .div4{
+    position: absolute;
+    top: 110px;
+    left: 380px;
+    text-align: center;
+}
+.sec9 .divimgs1{
+    display: flex;
+    margin-left: 400px;
+    
+    
+   
+}
+.sec9 .divimgs1 div{
+    margin: 5px;
+    margin-top: 170px;
+
+}
+
+.sec9 .divimgs2{
+    display: flex;
+    margin-left: 400px;
+    
+    
+   
+}
+.sec9 .divimgs2 div{
+    margin: 5px;
+    margin-top: 1px;
+    
+}
+
+
+
+.sec9 .divimgs3{
+    display: flex;
+    margin-left: 400px;
+    
+    
+   
+}
+.sec9 .divimgs3 div{
+    margin: 5px;
+    margin-top: 1px;
+    
+}
+.sec10{
+    height: 310px;
+    z-index: 1;
+}
+section img{
+    position: relative;
+    left: 1px;
+    opacity: 0.5;
+    z-index: 2;
+
+}
+
+.sec10 .div1{
+position: absolute;
+left: 320px;
+z-index: 2;
+margin-top: -275px;    
+}
+
+.sec10 .div2{
+    position: absolute;
+    left: 320px;
+    margin-top: -265px;
+    z-index: 2;
+
+}
+
+.sec10 .div3{
+    background-color: #53c1ae;
+    height: 1.7px;
+    width: 60px;
+    position: absolute;
+    left: 325px;
+    margin-top: -200px;
+    z-index: 2;
+
+    
+}
+
+.sec10 .div4{
+    position: absolute;
+    left: 325px;
+    margin-top: -200px;
+    z-index: 2;
+
+
+}
+.sec10 .div5{
+    position: absolute;
+    left: 325px;
+    margin-top: -100px;
+    z-index: 2;
+
+
+}
+
+.sec10 .main .divright{
+    background-color: rgb(22, 21, 21);
+    width: 450px;
+    height:140px ;
+    z-index: 3;
+    position: relative;
+    top: -240px;
+    margin-left: 800px;
+   margin-top: -10px;
+   opacity: 0.7;
+}
+
+.sec10 .main .divright .div1{
+    position: absolute;
+    top: 280px;
+    left: 15px;
+}
+.sec10 .main .divright .ddleft{
+    display: flex;
+    position: absolute;
+    top: 325px;
+    left: -315px;
+}
+
+.sec10 .main .divright .ddleft div{
+    margin: 5px;
+}
+.sec10 .main .divright .ddleft .d1 img{
+    position: absolute;
+    top: 15px;
+    z-index: 3;
+    opacity:1;
+} 
+.sec10 .main .divright .ddleft .d2 .pp{
+    display: flex;
+    position: absolute;
+    top: 17px;
+    left: 68px;
+    z-index: 3;
+    opacity:1;
+} 
+
+.sec10 .main .divright .ddleft .d2 .pp h4{
+    margin: 2px;
+}
+
+.sec10 .main .divright .ddleft .d2 p{
+    position: absolute;
+    top: 40px;
+    left: 75px;
+    z-index: 3;
+    opacity:1;
+} 
+
+.sec10 .main .divright .ddright{
+    position: absolute;
+    top: 352px;
+    left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+.sec11{
+    background-color: rgb(7, 7, 7);
+    height: 720px;
+    margin-top: -305px;
+    
+}
+.sec11 .div1{
+    position: absolute;
+    z-index: 2;
+    margin-top: 30px;
+    margin-left: 700px;
+       
+    }
+    
+    .sec11 .div2{
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 600px;
+        z-index: 2;
+    
+    }
+    
+    .sec11 .div3{
+        background-color: #53c1ae;
+        height: 1.7px;
+        width: 60px;
+        position: absolute;
+       margin-top: 120px;
+       margin-left: 720px;
+        z-index: 2;
+    
+        
+    }
+    
+    .sec11 .div4{
+        position: absolute;
+       margin-top: 130px;
+       margin-left: 450px;
+        z-index: 2;
+        text-align: center;
+    
+    
+    }
+.sectop1{
+        
+        display: flex;
+        margin-top: -550px;
+        margin-left: 320px;
+    
+    }
+.sectop1 div{
+        margin: 20px;
+    }
+    .sectop2{
+        
+        display: flex;
+        margin-top: -55px;
+        margin-left: 320px;
+    
+    }
+.sectop2 div{
+        margin: 30px;
+        
+}
+.sectop3{
+    display: flex;
+    margin-top: -10px;
+    margin-left: 350px;
+    margin-right: 370px;
+    justify-content: space-between;
+}
+.sectop3 .div1{
+    display: flex;
+}
+.sectop3 .div1 .divleft{
+    display: flex;
+}
+.sectop3 .div1 .divleft img{
+
+    margin-left: -10px;
+
+}
+
+.sectop3 .div1 .divright{
+    display: flex;
+}
+
+
+.sectop3 .div2{
+    display: flex;
+}
+
+.sectop3 .div2 .divleft{
+    display: flex;
+  
+    margin-left: 60px;
+}
+.sectop3 .div2 div{
+    margin-left: 20px;
+    
+}
+
+
+.sectop3 .div2 .divright{
+    display: flex;
+}
+.sectop3 .div3{
+    display: flex;
+}
+.sectop3 .div3 .divleft{
+    display: flex;
+    margin-right: -10px;
+}
+.sectop3 .div3 div{
+    margin-left: 10px;
+    
+}
+
+.sectop3 .div3 .divright{
+    display: flex;
+}
+.sec12{
+    background-color: rgb(21, 21, 21);
+    height: 440px;
+    margin-top:150px ;
+    position: relative;
+}
+
+.secmain{
+    display: flex;
+    position: absolute;
+    margin-top: -415px;
+    margin-left: 350px;
+}
+
+
+.secmain .div5{
+    display: flex;
+    position: relative;
+}
+
+.secmain .div5 .divleft a{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.secmain .div5 .divright h4{
+    position: absolute;
+    left: 40px;
+    top: -10px;
+}
+.secmain .div5 .divright p{
+    position: absolute;
+    left: 40px;
+    top: 22px;
+}
+
+.secmain .div6{
+    display: flex;
+    position: relative;
+}
+
+.secmain .div6 .divleft a{
+    position: absolute;
+    left: 10px;
+    top: 90px;
+}
+
+.secmain .div6 .divright h4{
+    position: absolute;
+    left: 45px;
+    top: 70px;
+}
+.secmain .div6 .divright p{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+}
+
+.secmain .div7{
+    display: flex;
+    position: relative;
+}
+
+.secmain .div7 .divleft a{
+    position: absolute;
+    left: 10px;
+    top: 160px;
+}
+
+.secmain .div7 .divright h4{
+    position: absolute;
+    left: 45px;
+    top: 140px;
+}
+.secmain .div7 .divright p{
+    position: absolute;
+    left: 40px;
+    top: 170px;
+}
+.sec_14{
+
+background-image: linear-gradient(to right,black,rgb(1, 29, 26),black) ,linear-gradient(to bottom,black,rgb(1, 29, 26),black);;
+height: 430px;
+position: relative;
+margin-top: -15px;
+
+
+}
+
+.sec_14 h2{
+    position: absolute;
+    top: 20px;
+    left: 650px;
+    font-size: 40px;
+    color: rgb(59, 204, 175);
+}
+.sec_14 h4{
+    position: absolute;
+    top: 90px;
+    left: 680px;
+    text-align: center;
+    font-size: 6px;
+    color: white;
+    font-family: Verdana;
+    position: absolute;
+}
+.sec_14 .diva{
+    display: flex;
+    position: absolute;
+    top:130px ;
+    left: 450px;
+}
+.sec_14 .diva a{
+    margin: 20px;
+}
+.sec_14 .div_1{
+    position: absolute;
+    top: 170px;
+    left: 550px;
+}
+.sec_14 .div_2{
+    display: flex;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.sec_14 .div_2 a{
+    margin: 30px;
+  
+}
+.sec_14 .pp{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    color: rgb(155, 154, 154);
+}
